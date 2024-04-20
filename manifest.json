@@ -70,6 +70,18 @@
       "sizes": "1920x1080",
       "form_factor": "narrow",
       "type": "image/png"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/learningpyramid.jpg",
+      "sizes": "1280x721",
+      "form_factor": "narrow",
+      "type": "image/jpg"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/activerecall.png",
+      "sizes": "1920x1080",
+      "form_factor": "wide",
+      "type": "image/png"
     }
   ],
   "shortcuts": [
