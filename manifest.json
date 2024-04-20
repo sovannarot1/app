@@ -4,7 +4,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/index.html",
+  "start_url": "/app/index.html",
   "name": "SovannarotApp",
   "short_name": "Sovannarot",
   "description": "Get Everthing about learning Technique from my website",
