@@ -68,6 +68,12 @@
     {
       "src": "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/activerecall.png",
       "sizes": "1920x1080",
+      "form_factor": "wide",
+      "type": "image/png"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/activerecall.png",
+      "sizes": "1920x1080",
       "form_factor": "narrow",
       "type": "image/png"
     },
@@ -76,27 +82,9 @@
       "sizes": "1280x721",
       "form_factor": "narrow",
       "type": "image/jpg"
-    },
-    {
-      "src": "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/activerecall.png",
-      "sizes": "1920x1080",
-      "form_factor": "wide",
-      "type": "image/png"
     }
   ],
   "shortcuts": [
-    {
-      "name": "Flowtime Technique Timer",
-      "short_name": "Flowtime Timer",
-      "description": "Clock to Calculate time to focus and take the brake",
-      "url": "/app/src/html/clock.html",
-      "icons": [
-        {
-          "src": "https://raw.githubusercontent.com/sovannarot1/app/main/assets/icon/maskable_icon_x192.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
     {
       "name": "About Of Sovannarot",
       "short_name": "About Me",
@@ -106,6 +94,30 @@
         {
           "src": "https://raw.githubusercontent.com/sovannarot1/app/main/assets/icon/shortcut.jpg",
           "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Flowtime Technique Timer",
+      "short_name": "Flowtime Timer",
+      "description": "Clock to Calculate time to focus and take the brake",
+      "url": "/app/src/html/clock.html",
+      "icons": [
+        {
+          "src": "https://static.vecteezy.com/system/resources/previews/000/633/173/non_2x/clock-icon-symbol-sign-vector.jpg",
+          "sizes": "490x490"
+        }
+      ]
+    },
+    {
+      "name": "See Learning Posts",
+      "short_name": "See Posts",
+      "description": "Learning Posts, You can from this posts",
+      "url": "/app/src/html/post.html",
+      "icons": [
+        {
+          "src": "https://static.thenounproject.com/png/1535273-200.png",
+          "sizes": "200x200"
         }
       ]
     }
