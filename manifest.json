@@ -40,7 +40,7 @@
       "purpose": "any"
     },
     {
-      "src": "/assets/icon/maskable_icon_x144.png",
+      "src": "https://raw.githubusercontent.com/sovannarot1/app/main/assets/icon/maskable_icon_x144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any"
