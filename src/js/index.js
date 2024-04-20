@@ -15,3 +15,15 @@ function menu() {
     menuli[2].style.transform = "scale(1)";
   }
 }
+
+let deferredPrompt;
+const installButton = document.getElementById("installbutton");
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  installButton.removeAttribute("hidden");
+});
+installButton.addEventListener("click", async () => {
+  deferredPrompt.prompt();
+  deferredPrompt = null;
+});
