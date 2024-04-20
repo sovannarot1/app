@@ -17,7 +17,7 @@ const assets = [
   "/assets/img/favicon.jpg",
   "/sw.js",
   "/src/html/fallback.html",
-  "/assets/icon/maskable_icon_x144.png",
+  "https://raw.githubusercontent.com/sovannarot1/app/main/assets/icon/maskable_icon_x144.png",
 ];
 self.addEventListener("install", (e) => {
   console.log("service worker has been installed");
