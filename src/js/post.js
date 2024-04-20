@@ -1,6 +1,7 @@
 const data = [
   {
-    photo: "../../assets/img/feynman.avif",
+    photo:
+      "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/feynman.avif",
     name: "Feynman Technique",
     date: "18/04/2024",
     about: "",
@@ -8,7 +9,8 @@ const data = [
     bonus: "",
   },
   {
-    photo: "../../assets/img/activerecall.png",
+    photo:
+      "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/activerecall.png",
     name: "Active Recall",
     date: "19/04/2024",
     about: "",
@@ -16,7 +18,8 @@ const data = [
     bonus: "",
   },
   {
-    photo: "../../assets/img/learningpyramid.jpg",
+    photo:
+      "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/learningpyramid.jpg",
     name: "Learning Pyramid",
     date: "20/04/2024",
     about: "",
@@ -24,7 +27,8 @@ const data = [
     bonus: "",
   },
   {
-    photo: "../../assets/img/flowtime.png",
+    photo:
+      "https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/flowtime.png",
     name: "Flowtime Method",
     date: "21/04/2024",
     about:
@@ -79,7 +83,7 @@ function createpostlayout(name, photo, about, use, bonus, index) {
     <h2>${name}</h2>
     <div style="width: calc(100vw - 300px); height: 25px"></div>
     <button onclick="hidepost(${index})">
-      <img src="../../assets/img/xmark.svg" alt="" />
+      <img src="https://raw.githubusercontent.com/sovannarot1/app/main/assets/img/xmark.svg" alt="" />
     </button>
   </div>
   <div class="mid">
