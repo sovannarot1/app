@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: Khmer;
-  src: url("../../assets/font/khmer2.ttf") format("truetype");
+  src: url(https://raw.githubusercontent.com/sovannarot1/app/main/assets/font/khmer2.ttf) format("truetype");
 }
 .social-button {
   display: flex;
